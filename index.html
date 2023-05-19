@@ -21,21 +21,72 @@
               </ul>
             </div>
           </nav>
-          <header class="py-3 mb-4 border-bottom">
-            <div class="container d-flex flex-wrap justify-content-center">
-              <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+
+          <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
                 <span class="fs-4">Skate Space</span>
               </a>
-              <ul class="nav me-auto">
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">What's On</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Prices</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Book Us</a></li>
+        
+              <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">What's On</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Book Us</a></li>
               </ul>
-            
+            </header>
+          </div>
+     <main>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-          </header>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>What's On.</h1>
+                    <p>Whether it's a Roller Disco, Lessons, Birthday Parties, or you just want to skate. Have a look at our different Events.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Find Out More</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Book us for your own event.</h1>
+                    <p>Have a look at our booking page if you are interested in hiring us for any upcoming events.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>How to Find Us.</h1>
+                    <p>You can click here to have a look at our interactive map, or if you would prefer, check our Instagram for live updates.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Find Us</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            
+        </main>   
 
         <script src="js/bootstrap.min.js"></script>
 
