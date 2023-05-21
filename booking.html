@@ -45,22 +45,49 @@
 
      <main>
 
-      <div class="container">
+      <div class="container-fluid bg-light">
         <div class="row d-flex justify-content-center">
           <div class="col-sm-8 col-md-7 py-4">
             <h2 class="text-black d-flex justify-content-center">Book Us!</h2>
-            <p class="text-muted p-3">Add some information about how the booking system works, include instruction and information regarding different events. Include disclaimer but big events, such as festivals, must contact us via phone or email.</p>
+            <p class="text-muted p-3 ">If you would like to book us for your own event, please fill out the boxes below and we will email you back with more information. Information regarding the different types of events we offer can be found below, or alternativly within our 'What's on' Page. For larger events, such as festivals, please contact us directly, via phone or email.</p>
           </div>
         </div>
       </div> 
 
+      <form class="row d-flex p-3 justify-content-center bg-light">
+        <div class="col-sm-3">
+          <label class="visually-hidden" for="specificSizeInputName">Email</label>
+          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Please enter your email">
+        </div>
+        <div class="col-sm-3">
+          <label class="visually-hidden" for="specificSizeInputGroupUsername">No. Of Guests</label>
+          <div class="input-group">
+            <div class="input-group-text">Guests</div>
+            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Please enter the number of guests">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <label class="visually-hidden" for="specificSizeInputGroupUsername">Date</label>
+          <div class="input-group">
+            <div class="input-group-text">Date</div>
+            <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="DD/WW/YYYY">
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <label class="visually-hidden" for="specificSizeSelect">Type of Event</label>
+          <select class="form-select" id="specificSizeSelect">
+            <option selected>Choose an Event...</option>
+            <option value="1">Roller Disco</option>
+            <option value="2">Birthday Party</option>
+            <option value="3">Other</option>
+          </select>
+        </div>
+        
+        <div class="col-auto p-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
      
-
-
-
-
-
-
 
         </main>   
 
